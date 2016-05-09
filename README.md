@@ -1,5 +1,18 @@
 ## Design Patterns
 
+### Creational Design Patterns  
+Provide solution to instantiate an object in the best
+possible way for specific situations.
+
+### Structuaral Design Patterns 
+Provide different ways to create a class structure, for
+example using inheritance and composition to create a large object from
+small objects
+
+### Behavioral Design Patterns 
+Provide solution for the better interaction between
+objects and how to provide lose coupling and flexibility to extend easily.
+
 ### Singleton Design Pattern
 
 Singleton pattern restricts the instantiation of a class and ensures that only
@@ -26,6 +39,25 @@ Steps to create:
 3) Builder should have the public constructor with required attributes.
 4) We need to provide the build() method which will return the object of the Animal.
 
+### Facade Design Pattern
 
+Provide a unified interface to a set of interfaces in a subsystem. Facade
+Pattern defines a higher-level interface that makes the subsystem easier to
+use.
 
+ Facade pattern is more like a helper for client applications, it doesn’t
+hide subsystem interfaces from the client. 
+ Facade pattern can be applied at any point of development, usually
+when the number of interfaces grow and system gets complex.
+ Subsystem interfaces are not aware of Facade and they shouldn’t have
+any reference of the Facade interface.
+ Facade pattern should be applied for similar kind of interfaces, its
+purpose is to provide a single interface rather than multiple interfaces
+that does the similar kind of jobs.
+
+### Template Design Pattern
+
+### Memento design pattern 
+is used when we want to save the state of an object so that we
+can restore later on
 
