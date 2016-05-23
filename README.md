@@ -45,15 +45,25 @@ Provide a unified interface to a set of interfaces in a subsystem. Facade
 Pattern defines a higher-level interface that makes the subsystem easier to
 use.
 
- Facade pattern is more like a helper for client applications, it doesn’t
+ Facade pattern is more like a helper for client applications, it doesnâ€™t
 hide subsystem interfaces from the client. 
  Facade pattern can be applied at any point of development, usually
 when the number of interfaces grow and system gets complex.
- Subsystem interfaces are not aware of Facade and they shouldn’t have
+ Subsystem interfaces are not aware of Facade and they shouldnâ€™t have
 any reference of the Facade interface.
  Facade pattern should be applied for similar kind of interfaces, its
 purpose is to provide a single interface rather than multiple interfaces
 that does the similar kind of jobs.
+
+### Adapter Design Pattern
+
+Adapter design pattern is one of the structural design pattern and itâ€™s
+used so that two unrelated interfaces can work together. The object that joins
+these unrelated interface is called an Adapter. As a real life example, we
+can think of a mobile charger as an adapter because mobile battery needs 3
+volts to charge but the normal socket produces either 120V or 240V. 
+So the mobile charger works as an adapter between mobile charging
+socket and the wall socket.
 
 ### Template Design Pattern
 
