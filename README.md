@@ -71,3 +71,9 @@ socket and the wall socket.
 is used when we want to save the state of an object so that we
 can restore later on
 
+### Flyweight Pattern
+Flyweight pattern is primarily used to reduce the number of objects created and to decrease memory footprint and increase performance. This type of design pattern comes under structural pattern as this pattern provides ways to decrease object count thus improving the object structure of application.
+
+Flyweight pattern tries to reuse already existing similar kind objects by storing them and creates new object when no matching object is found. 
+
+String constant pool is best example for this pattern
